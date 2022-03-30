@@ -1,0 +1,4 @@
+run = "go run main.go"
+
+[nix]
+channel = "unstable"
