@@ -19,3 +19,7 @@ func (s *SimpleSet[T]) Has(element T) bool {
   _, ok := s.m[element]
   return ok
 }
+
+func (s *SimpleSet[T]) Size() int {
+  return len(s.m)
+}

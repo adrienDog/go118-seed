@@ -1,7 +1,9 @@
 # GO 1.18 seed
 [Release blog post](https://go.dev/blog/go1.18)
 
+This is WIP and edited on Replit https://replit.com/@AdrienVaschalde/go118-seed
 
+We try to explore 1.18 with a workspace and generics.
 
 ## Getting started with Nix
 

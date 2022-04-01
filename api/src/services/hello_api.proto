@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package api;
+
+option go_package = "github.com/adrienDog/go118-seed/api";
+
+service HelloAPI {
+  rpc GetGreetings(GetGreetingsRequest) returns (GetGreetingsReply);
+}
+
+message GetGreetingsRequest {
+  string name = 1;
+}
+
+message GetGreetingsReply {
+  string greeting = 1;
+}
